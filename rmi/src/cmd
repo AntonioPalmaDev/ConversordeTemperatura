@@ -1,0 +1,3 @@
+iniciar servidor java src.ServidorRMI
+rodar no cliente java src.ClienteRMI localhost
+se for em outra maquina trocar o local host pelo ip da maquina onde esta o servidor
