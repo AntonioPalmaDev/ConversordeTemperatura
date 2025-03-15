@@ -17,7 +17,7 @@ Este projeto implementa um sistema cliente-servidor usando **Java RMI (Remote Me
 
 1️⃣ **Compilar os arquivos Java**
 ```sh
-javac *.java
+javac -d src src/*.java
 ```
 
 2️⃣ **Iniciar o Registro RMI**
@@ -27,13 +27,13 @@ rmiregistry &
 
 3️⃣ **Executar o Servidor**
 ```sh
-java ServidorRMI
+java -cp src src.ServidorRMI
 ```
 Saída esperada: `Servidor pronto!`
 
 4️⃣ **Executar o Cliente** (em outro terminal)
 ```sh
-java ClienteRMI
+java -cp src src.ClienteRMI
 ```
 
 ---
